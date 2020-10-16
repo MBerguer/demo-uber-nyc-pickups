@@ -1,1 +1,2 @@
-web: streamlit run --server.enableCORS false --server.port 80 streamlit_app.py
+web: sh setup.sh && streamlit run your_app.py
+
